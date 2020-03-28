@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ds_ilet" targetNamespace="http://www.tempuri.org/ds_ilet.xsd" xmlns:mstns="http://www.tempuri.org/ds_ilet.xsd" xmlns="http://www.tempuri.org/ds_ilet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ds_ilet" msdata:IsDataSet="true" msdata:Locale="tr-TR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="tbl_ilet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" type="xs:int" />
+              <xs:element name="HareketID" type="xs:int" />
+              <xs:element name="IletiID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Metin" type="xs:string" />
+              <xs:element name="Eski" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="KartID" type="xs:int" />
+              <xs:element name="Konu" type="xs:string" />
+              <xs:element name="UserName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tbl_ilet" />
+      <xs:field xpath="mstns:IletiID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,445 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{0FC45CDA-32ED-4116-B7AD-9500F64443D2}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "deneme"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "deneme"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Admin.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin.resx"
+                    DependentUpon = "Admin.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminAnaSayfa.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminAnaSayfa.resx"
+                    DependentUpon = "AdminAnaSayfa.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminDuzenle.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminDuzenle.resx"
+                    DependentUpon = "AdminDuzenle.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AdminSil.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AdminSil.resx"
+                    DependentUpon = "AdminSil.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AnaSayfa.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AnaSayfa.resx"
+                    DependentUpon = "AnaSayfa.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CctvAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CctvAra.resx"
+                    DependentUpon = "CctvAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ds_Hareket.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds_Hareket.cs"
+                />
+                <File
+                    RelPath = "ds_Hareket.cs"
+                    DependentUpon = "ds_Hareket.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds_Hareket.xsx"
+                    DependentUpon = "ds_Hareket.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ds_ilet.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds_ilet.cs"
+                />
+                <File
+                    RelPath = "ds_ilet.cs"
+                    DependentUpon = "ds_ilet.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds_ilet.xsx"
+                    DependentUpon = "ds_ilet.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ds_musteri.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds_musteri.cs"
+                />
+                <File
+                    RelPath = "ds_musteri.cs"
+                    DependentUpon = "ds_musteri.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds_musteri.xsx"
+                    DependentUpon = "ds_musteri.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ds_users.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "ds_users.cs"
+                />
+                <File
+                    RelPath = "ds_users.cs"
+                    DependentUpon = "ds_users.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ds_users.xsx"
+                    DependentUpon = "ds_users.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Giris.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Giris.resx"
+                    DependentUpon = "Giris.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HareketlerAna.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HareketlerAna.resx"
+                    DependentUpon = "HareketlerAna.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HareketlerAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HareketlerAra.resx"
+                    DependentUpon = "HareketlerAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HareketlerYeni.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HareketlerYeni.resx"
+                    DependentUpon = "HareketlerYeni.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Ileti.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Ileti.resx"
+                    DependentUpon = "Ileti.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "IletiOku.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "IletiOku.resx"
+                    DependentUpon = "IletiOku.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KartlarAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KartlarAra.resx"
+                    DependentUpon = "KartlarAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KartlarAyrinti.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KartlarAyrinti.resx"
+                    DependentUpon = "KartlarAyrinti.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KartlarDuzenle.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KartlarDuzenle.resx"
+                    DependentUpon = "KartlarDuzenle.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KartlarGuncelle.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KartlarGuncelle.resx"
+                    DependentUpon = "KartlarGuncelle.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KartlarSil.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KartlarSil.resx"
+                    DependentUpon = "KartlarSil.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KartlarYeni.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KartlarYeni.resx"
+                    DependentUpon = "KartlarYeni.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MusteriKayit.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MusteriKayit.resx"
+                    DependentUpon = "MusteriKayit.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OemAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OemAra.resx"
+                    DependentUpon = "OemAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PsgAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PsgAra.resx"
+                    DependentUpon = "PsgAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ServisAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ServisAra.resx"
+                    DependentUpon = "ServisAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TeklifCikis.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TeklifCikis.resx"
+                    DependentUpon = "TeklifCikis.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TeklifGoruntule.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TeklifGoruntule.resx"
+                    DependentUpon = "TeklifGoruntule.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TeklifYeni.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TeklifYeni.resx"
+                    DependentUpon = "TeklifYeni.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "YazilimAra.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "YazilimAra.resx"
+                    DependentUpon = "YazilimAra.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

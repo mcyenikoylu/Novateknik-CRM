@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="deneme">
+</Property><Property Name="Solution File" Value="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.sln">
+</Property><Property Name="Date" Value="17 Mayıs 2018 Perşembe">
+</Property><Property Name="Time" Value="13:32:14">
+</Property><Property Name="Log Number" Value="4">
+</Property></Properties><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (HareketlerAna.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (HareketlerAra.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (KartlarAra.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (KartlarSil.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (OemAra.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (PsgAra.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (ServisAra.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="1" Project="C:\Users\MCY\OneDrive\Programlama\160GBHDD\Windows\Novateknik CRM\CRM PROJECT_SETUPDAN_ONCEKI_SON YEDEK_06062006\deneme.csproj" Source="deneme.csproj" Description="MSB2016: Found an empty .RESX file in the project (YazilimAra.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="2" Project="deneme" Source="deneme.csproj" Description="Error converting project user file.  'EnableSQLServerDebugging' is a duplicate attribute name. Line 13, position 21.">
+</Event><Event ErrorLevel="3" Project="deneme" Source="deneme.csproj" Description="Not Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ds_Hareket" targetNamespace="http://www.tempuri.org/ds_Hareket.xsd" xmlns:mstns="http://www.tempuri.org/ds_Hareket.xsd" xmlns="http://www.tempuri.org/ds_Hareket.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="ds_Hareket" msdata:IsDataSet="true" msdata:Locale="tr-TR">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="tbl_hareket">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HareketID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Tarih" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Saat" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Sil" type="xs:unsignedByte" />
+              <xs:element name="KartID" type="xs:int" />
+              <xs:element name="HarTur" type="xs:string" />
+              <xs:element name="HarYonu" type="xs:int" />
+              <xs:element name="Iletisim" type="xs:string" />
+              <xs:element name="AraSonuc" type="xs:string" />
+              <xs:element name="Konu" type="xs:string" />
+              <xs:element name="Gorusme" type="xs:int" />
+              <xs:element name="GorTarih" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GorZaman" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GorDurum" type="xs:string" />
+              <xs:element name="GorSonuc" type="xs:string" />
+              <xs:element name="GorNot" type="xs:string" />
+              <xs:element name="Admin" type="xs:string" />
+              <xs:element name="HarDurum" type="xs:string" />
+              <xs:element name="SonYonu" type="xs:int" />
+              <xs:element name="Users" type="xs:int" />
+              <xs:element name="UserName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tbl_hareket" />
+      <xs:field xpath="mstns:HareketID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
